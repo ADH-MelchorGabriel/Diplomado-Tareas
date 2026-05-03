@@ -1,23 +1,28 @@
 [
   {
-    "ContainingType": "Diplomado_Tareas.API.Controllers.WeatherForecastController",
-    "Method": "Get",
-    "RelativePath": "WeatherForecast",
+    "ContainingType": "Tareas.Controllers.ProyectosController",
+    "Method": "Listar",
+    "RelativePath": "api/Proyectos",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [],
-    "ReturnTypes": [
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tareas.Controllers.ProyectosController",
+    "Method": "Guardar",
+    "RelativePath": "api/Proyectos",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[Diplomado_Tareas.API.WeatherForecast, Diplomado-Tareas.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
+        "Name": "newObj",
+        "Type": "Tareas.Dtos.ProyectoSetDto",
+        "IsRequired": true
       }
     ],
-    "EndpointName": "GetWeatherForecast"
+    "ReturnTypes": []
   }
 ]

@@ -3,12 +3,24 @@
   "WorkspaceRootPath": "C:\\Diplomado\\Diplomado-Tareas\\BackEnd\\Diplomado-Tareas.API\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6F6A85BF-9FCE-4C0B-B521-E8EB696E60F7}|Diplomado-Tareas.API\\Diplomado-Tareas.API.csproj|c:\\diplomado\\diplomado-tareas\\backend\\diplomado-tareas.api\\diplomado-tareas.api\\models\\tareas\\tareaentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6F6A85BF-9FCE-4C0B-B521-E8EB696E60F7}|Diplomado-Tareas.API\\Diplomado-Tareas.API.csproj|solutionrelative:diplomado-tareas.api\\models\\tareas\\tareaentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{375EDD82-F6EA-66F6-8815-8AE399F5DC5D}|Diplomado-Tareas.API\\Diplomado-Tareas.API.csproj|c:\\diplomado\\diplomado-tareas\\backend\\diplomado-tareas.api\\diplomado-tareas.api\\controllers\\proyectoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{375EDD82-F6EA-66F6-8815-8AE399F5DC5D}|Diplomado-Tareas.API\\Diplomado-Tareas.API.csproj|solutionrelative:diplomado-tareas.api\\controllers\\proyectoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6F6A85BF-9FCE-4C0B-B521-E8EB696E60F7}|Diplomado-Tareas.API\\Diplomado-Tareas.API.csproj|c:\\diplomado\\diplomado-tareas\\backend\\diplomado-tareas.api\\diplomado-tareas.api\\models\\tareas\\estadotareaenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6F6A85BF-9FCE-4C0B-B521-E8EB696E60F7}|Diplomado-Tareas.API\\Diplomado-Tareas.API.csproj|solutionrelative:diplomado-tareas.api\\models\\tareas\\estadotareaenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{375EDD82-F6EA-66F6-8815-8AE399F5DC5D}|Diplomado-Tareas.API\\Diplomado-Tareas.API.csproj|c:\\diplomado\\diplomado-tareas\\backend\\diplomado-tareas.api\\diplomado-tareas.api\\models\\proyectos\\proyectodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{375EDD82-F6EA-66F6-8815-8AE399F5DC5D}|Diplomado-Tareas.API\\Diplomado-Tareas.API.csproj|solutionrelative:diplomado-tareas.api\\models\\proyectos\\proyectodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{375EDD82-F6EA-66F6-8815-8AE399F5DC5D}|Diplomado-Tareas.API\\Diplomado-Tareas.API.csproj|c:\\diplomado\\diplomado-tareas\\backend\\diplomado-tareas.api\\diplomado-tareas.api\\models\\proyectos\\proyectoentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{375EDD82-F6EA-66F6-8815-8AE399F5DC5D}|Diplomado-Tareas.API\\Diplomado-Tareas.API.csproj|solutionrelative:diplomado-tareas.api\\models\\proyectos\\proyectoentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{375EDD82-F6EA-66F6-8815-8AE399F5DC5D}|Diplomado-Tareas.API\\Diplomado-Tareas.API.csproj|c:\\diplomado\\diplomado-tareas\\backend\\diplomado-tareas.api\\diplomado-tareas.api\\migrations\\20260503041036_empleadoproyecto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{375EDD82-F6EA-66F6-8815-8AE399F5DC5D}|Diplomado-Tareas.API\\Diplomado-Tareas.API.csproj|solutionrelative:diplomado-tareas.api\\migrations\\20260503041036_empleadoproyecto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{375EDD82-F6EA-66F6-8815-8AE399F5DC5D}|Diplomado-Tareas.API\\Diplomado-Tareas.API.csproj|c:\\diplomado\\diplomado-tareas\\backend\\diplomado-tareas.api\\diplomado-tareas.api\\models\\empleados\\empleadosentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{375EDD82-F6EA-66F6-8815-8AE399F5DC5D}|Diplomado-Tareas.API\\Diplomado-Tareas.API.csproj|solutionrelative:diplomado-tareas.api\\models\\empleados\\empleadosentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -17,8 +29,8 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 346,
-          "SelectedChildIndex": 4,
+          "DockedWidth": 587,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -35,37 +47,82 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
-            },
+            }
+          ]
+        },
+        {
+          "DockedWidth": 587,
+          "SelectedChildIndex": 0,
+          "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "TareaEntity.cs",
-              "DocumentMoniker": "C:\\Diplomado\\Diplomado-Tareas\\BackEnd\\Diplomado-Tareas.API\\Diplomado-Tareas.API\\Models\\Tareas\\TareaEntity.cs",
-              "RelativeDocumentMoniker": "Diplomado-Tareas.API\\Models\\Tareas\\TareaEntity.cs",
-              "ToolTip": "C:\\Diplomado\\Diplomado-Tareas\\BackEnd\\Diplomado-Tareas.API\\Diplomado-Tareas.API\\Models\\Tareas\\TareaEntity.cs",
-              "RelativeToolTip": "Diplomado-Tareas.API\\Models\\Tareas\\TareaEntity.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAGAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "EmpleadosEntity.cs",
+              "DocumentMoniker": "C:\\Diplomado\\Diplomado-Tareas\\BackEnd\\Diplomado-Tareas.API\\Diplomado-Tareas.API\\Models\\Empleados\\EmpleadosEntity.cs",
+              "RelativeDocumentMoniker": "Diplomado-Tareas.API\\Models\\Empleados\\EmpleadosEntity.cs",
+              "ToolTip": "C:\\Diplomado\\Diplomado-Tareas\\BackEnd\\Diplomado-Tareas.API\\Diplomado-Tareas.API\\Models\\Empleados\\EmpleadosEntity.cs",
+              "RelativeToolTip": "Diplomado-Tareas.API\\Models\\Empleados\\EmpleadosEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-03T02:39:57.456Z",
+              "WhenOpened": "2026-05-03T04:12:17.583Z",
               "EditorCaption": ""
             }
           ]
         },
         {
-          "DockedWidth": 346,
-          "SelectedChildIndex": 0,
+          "DockedWidth": 587,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "EstadoTareaEnum.cs",
-              "DocumentMoniker": "C:\\Diplomado\\Diplomado-Tareas\\BackEnd\\Diplomado-Tareas.API\\Diplomado-Tareas.API\\Models\\Tareas\\EstadoTareaEnum.cs",
-              "RelativeDocumentMoniker": "Diplomado-Tareas.API\\Models\\Tareas\\EstadoTareaEnum.cs",
-              "ToolTip": "C:\\Diplomado\\Diplomado-Tareas\\BackEnd\\Diplomado-Tareas.API\\Diplomado-Tareas.API\\Models\\Tareas\\EstadoTareaEnum.cs",
-              "RelativeToolTip": "Diplomado-Tareas.API\\Models\\Tareas\\EstadoTareaEnum.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Title": "ProyectoDto.cs",
+              "DocumentMoniker": "C:\\Diplomado\\Diplomado-Tareas\\BackEnd\\Diplomado-Tareas.API\\Diplomado-Tareas.API\\Models\\Proyectos\\ProyectoDto.cs",
+              "RelativeDocumentMoniker": "Diplomado-Tareas.API\\Models\\Proyectos\\ProyectoDto.cs",
+              "ToolTip": "C:\\Diplomado\\Diplomado-Tareas\\BackEnd\\Diplomado-Tareas.API\\Diplomado-Tareas.API\\Models\\Proyectos\\ProyectoDto.cs",
+              "RelativeToolTip": "Diplomado-Tareas.API\\Models\\Proyectos\\ProyectoDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-03T02:47:15.428Z",
+              "WhenOpened": "2026-05-03T04:34:55.094Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProyectosController.cs",
+              "DocumentMoniker": "C:\\Diplomado\\Diplomado-Tareas\\BackEnd\\Diplomado-Tareas.API\\Diplomado-Tareas.API\\Controllers\\ProyectosController.cs",
+              "RelativeDocumentMoniker": "Diplomado-Tareas.API\\Controllers\\ProyectosController.cs",
+              "ToolTip": "C:\\Diplomado\\Diplomado-Tareas\\BackEnd\\Diplomado-Tareas.API\\Diplomado-Tareas.API\\Controllers\\ProyectosController.cs",
+              "RelativeToolTip": "Diplomado-Tareas.API\\Controllers\\ProyectosController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAswBsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-03T04:16:54.739Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "20260503041036_EmpleadoProyecto.cs",
+              "DocumentMoniker": "C:\\Diplomado\\Diplomado-Tareas\\BackEnd\\Diplomado-Tareas.API\\Diplomado-Tareas.API\\Migrations\\20260503041036_EmpleadoProyecto.cs",
+              "RelativeDocumentMoniker": "Diplomado-Tareas.API\\Migrations\\20260503041036_EmpleadoProyecto.cs",
+              "ToolTip": "C:\\Diplomado\\Diplomado-Tareas\\BackEnd\\Diplomado-Tareas.API\\Diplomado-Tareas.API\\Migrations\\20260503041036_EmpleadoProyecto.cs",
+              "RelativeToolTip": "Diplomado-Tareas.API\\Migrations\\20260503041036_EmpleadoProyecto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-03T04:13:51.545Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProyectoEntity.cs",
+              "DocumentMoniker": "C:\\Diplomado\\Diplomado-Tareas\\BackEnd\\Diplomado-Tareas.API\\Diplomado-Tareas.API\\Models\\Proyectos\\ProyectoEntity.cs",
+              "RelativeDocumentMoniker": "Diplomado-Tareas.API\\Models\\Proyectos\\ProyectoEntity.cs",
+              "ToolTip": "C:\\Diplomado\\Diplomado-Tareas\\BackEnd\\Diplomado-Tareas.API\\Diplomado-Tareas.API\\Models\\Proyectos\\ProyectoEntity.cs",
+              "RelativeToolTip": "Diplomado-Tareas.API\\Models\\Proyectos\\ProyectoEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-03T04:12:20.038Z",
               "EditorCaption": ""
             }
           ]

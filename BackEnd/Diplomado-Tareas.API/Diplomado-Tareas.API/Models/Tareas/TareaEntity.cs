@@ -18,5 +18,9 @@ namespace Tareas.Entidades
         [Required] public int IdEmpleado { get; set; }
         [Required] public int IdProyecto { get; set; }
         public bool EstaActivo { get; set; }
+
+        [ForeignKey("IdEmpleado")]public  virtual  EmpleadosEntity Empleado { get; set; }=new EmpleadosEntity();
+        [ForeignKey("IdProyecto")]public virtual ProyectoEntity Proyecto { get; set; } = new ProyectoEntity();
+
     }
 }

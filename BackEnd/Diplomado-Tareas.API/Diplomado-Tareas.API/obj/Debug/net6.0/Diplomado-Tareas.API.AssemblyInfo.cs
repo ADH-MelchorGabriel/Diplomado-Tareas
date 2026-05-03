@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Diplomado-Tareas.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7ed0ca1eeb58550bbc08a7533b1109eef145df36")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f880d18fea7f822bf2faa8988da13a043f0846ad")]
 [assembly: System.Reflection.AssemblyProductAttribute("Diplomado-Tareas.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Diplomado-Tareas.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
