@@ -1,0 +1,76 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Diplomado\\Diplomado-Tareas\\BackEnd\\Diplomado-Tareas.API\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6F6A85BF-9FCE-4C0B-B521-E8EB696E60F7}|Diplomado-Tareas.API\\Diplomado-Tareas.API.csproj|c:\\diplomado\\diplomado-tareas\\backend\\diplomado-tareas.api\\diplomado-tareas.api\\models\\tareas\\tareaentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F6A85BF-9FCE-4C0B-B521-E8EB696E60F7}|Diplomado-Tareas.API\\Diplomado-Tareas.API.csproj|solutionrelative:diplomado-tareas.api\\models\\tareas\\tareaentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F6A85BF-9FCE-4C0B-B521-E8EB696E60F7}|Diplomado-Tareas.API\\Diplomado-Tareas.API.csproj|c:\\diplomado\\diplomado-tareas\\backend\\diplomado-tareas.api\\diplomado-tareas.api\\models\\tareas\\estadotareaenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F6A85BF-9FCE-4C0B-B521-E8EB696E60F7}|Diplomado-Tareas.API\\Diplomado-Tareas.API.csproj|solutionrelative:diplomado-tareas.api\\models\\tareas\\estadotareaenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 346,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TareaEntity.cs",
+              "DocumentMoniker": "C:\\Diplomado\\Diplomado-Tareas\\BackEnd\\Diplomado-Tareas.API\\Diplomado-Tareas.API\\Models\\Tareas\\TareaEntity.cs",
+              "RelativeDocumentMoniker": "Diplomado-Tareas.API\\Models\\Tareas\\TareaEntity.cs",
+              "ToolTip": "C:\\Diplomado\\Diplomado-Tareas\\BackEnd\\Diplomado-Tareas.API\\Diplomado-Tareas.API\\Models\\Tareas\\TareaEntity.cs",
+              "RelativeToolTip": "Diplomado-Tareas.API\\Models\\Tareas\\TareaEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-03T02:39:57.456Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 346,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EstadoTareaEnum.cs",
+              "DocumentMoniker": "C:\\Diplomado\\Diplomado-Tareas\\BackEnd\\Diplomado-Tareas.API\\Diplomado-Tareas.API\\Models\\Tareas\\EstadoTareaEnum.cs",
+              "RelativeDocumentMoniker": "Diplomado-Tareas.API\\Models\\Tareas\\EstadoTareaEnum.cs",
+              "ToolTip": "C:\\Diplomado\\Diplomado-Tareas\\BackEnd\\Diplomado-Tareas.API\\Diplomado-Tareas.API\\Models\\Tareas\\EstadoTareaEnum.cs",
+              "RelativeToolTip": "Diplomado-Tareas.API\\Models\\Tareas\\EstadoTareaEnum.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-03T02:47:15.428Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
