@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using AutoMapper;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Tareas.Contextos;
 using Tareas.Dtos;
@@ -12,10 +13,11 @@ namespace Tareas.Controllers
     {
 
         private readonly DataContext _context;
-
-        public ProyectosController(DataContext context)
+        private readonly IMapper _mapper;
+        public ProyectosController(DataContext context, IMapper mapper)
         {
             _context = context;
+            _mapper = mapper;
         }
 
         [HttpGet]
@@ -24,8 +26,8 @@ namespace Tareas.Controllers
             try
             {
                 var lista = await _context.Proyectos
-                    .Where(x=> x.EstaActivo)
-                    .Select(x=> new ProyectoGetDto(x))
+                    .Where(x => x.EstaActivo )
+                    .Select(x => _mapper.Map<ProyectoGetDto>(x))
                     .ToListAsync();
 
                 if (lista == null || lista.Count == 0)
@@ -37,25 +39,98 @@ namespace Tareas.Controllers
             {
 
                 return BadRequest(ex.Message);
-            } 
+            }
         }
+
+        [HttpGet("id")]
+        public async Task<IActionResult> Buscar(int id)
+        {
+            try
+            {
+                var obj = await _context.Proyectos.FindAsync(id);
+                if (obj == null)
+                    return NotFound("Proyecto no encontrado");
+
+                return Ok(_mapper.Map<ProyectoGetDto>(obj));
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        }
+
 
         [HttpPost]
         public async Task<IActionResult> Guardar(ProyectoSetDto newObj)
         {
-
 
             try
             {
                 if (!ModelState.IsValid)
                     return BadRequest("Modelo invalido");
 
-                var obj = new ProyectoEntity(newObj);
+                var obj = _mapper.Map<ProyectoEntity>(newObj);
 
                 await _context.Proyectos.AddAsync(obj);
                 await _context.SaveChangesAsync();
 
-                return CreatedAtAction(nameof(Guardar), new { id = obj.IdProyecto }, obj);
+                return CreatedAtAction(nameof(Buscar), new { id = obj.IdProyecto }, _mapper.Map<ProyectoGetDto>(obj));
+            }
+            catch (Exception ex)
+            {
+
+                return BadRequest(ex.Message);
+            }
+        }
+
+        [HttpPut]
+        public async Task<IActionResult> Modificar(int id, ProyectoSetDto obj)
+        {
+            try
+            {
+                if (!ModelState.IsValid)
+                    return BadRequest("Modelo invalid");
+
+                var proyecto = await _context.Proyectos.FindAsync(id);
+
+                if (proyecto == null)
+                    return NotFound("Proyecto no encontrado");
+
+
+                _mapper.Map(obj, proyecto);
+
+                _context.Proyectos.Update(proyecto);
+                await _context.SaveChangesAsync();
+
+                return Ok(_mapper.Map<ProyectoGetDto>(proyecto));
+
+
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        }
+
+        [HttpDelete]
+        public async Task<IActionResult> Borrar(int id)
+        {
+            try
+            {
+                var proyecto = await _context.Proyectos.FindAsync(id);
+
+                if (proyecto == null)
+                    return NotFound("Proyecto no encontrado");
+
+                //   _context.Proyectos.Remove(proyecto);
+
+                proyecto.EstaActivo = false;
+                _context.Proyectos.Update(proyecto);
+
+                await _context.SaveChangesAsync();
+
+                return Ok(_mapper.Map<ProyectoGetDto>(proyecto));
+
             }
             catch (Exception ex)
             {

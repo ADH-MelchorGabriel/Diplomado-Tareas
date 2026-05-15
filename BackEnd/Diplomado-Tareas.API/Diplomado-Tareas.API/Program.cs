@@ -1,3 +1,4 @@
+using Diplomado_Tareas.API.AutoMapper;
 using Microsoft.EntityFrameworkCore;
 using Tareas.Contextos;
 
@@ -8,7 +9,21 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 
+builder.Services.AddAutoMapper(c=> c.AddProfile<MappingProfile>());
+
+
 builder.Services.AddDbContext<DataContext>(x=> x.UseSqlServer(builder.Configuration.GetConnectionString("TareaConnection")));
+
+
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowVue", builder =>
+    {
+        builder.AllowAnyOrigin()
+               .AllowAnyMethod()
+               .AllowAnyHeader();
+    });
+});
 
 
 builder.Services.AddEndpointsApiExplorer();
@@ -26,6 +41,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
+app.UseCors("AllowVue");
 app.UseHttpsRedirection();
 
 app.UseAuthorization();

@@ -8,16 +8,6 @@ namespace Tareas.Entidades
     public class ProyectoEntity
     {
 
-        public ProyectoEntity()
-        {
-            EstaActivo=true;
-        }
-        public ProyectoEntity(ProyectoSetDto dto)
-        {
-            Nombre=dto.Nombre;
-            EstaActivo=true;
-        }
-
         [Key] public int IdProyecto { get; set; }
         [Required,StringLength(120)]public string Nombre { get; set; }=string.Empty;    
         public bool EstaActivo{ get; set; }

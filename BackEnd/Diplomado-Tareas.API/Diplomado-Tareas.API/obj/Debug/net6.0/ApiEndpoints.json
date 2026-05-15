@@ -1,5 +1,84 @@
 [
   {
+    "ContainingType": "Tareas.Controllers.EmpleadosController",
+    "Method": "Listar",
+    "RelativePath": "api/Empleados",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tareas.Controllers.EmpleadosController",
+    "Method": "Guardar",
+    "RelativePath": "api/Empleados",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "newObj",
+        "Type": "Tareas.Dtos.EmpleadoSetDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tareas.Controllers.EmpleadosController",
+    "Method": "Modificar",
+    "RelativePath": "api/Empleados",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "obj",
+        "Type": "Tareas.Dtos.EmpleadoSetDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tareas.Controllers.EmpleadosController",
+    "Method": "Borrar",
+    "RelativePath": "api/Empleados",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tareas.Controllers.EmpleadosController",
+    "Method": "Buscar",
+    "RelativePath": "api/Empleados/id",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "Tareas.Controllers.ProyectosController",
     "Method": "Listar",
     "RelativePath": "api/Proyectos",
@@ -21,6 +100,138 @@
         "Name": "newObj",
         "Type": "Tareas.Dtos.ProyectoSetDto",
         "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tareas.Controllers.ProyectosController",
+    "Method": "Modificar",
+    "RelativePath": "api/Proyectos",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "obj",
+        "Type": "Tareas.Dtos.ProyectoSetDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tareas.Controllers.ProyectosController",
+    "Method": "Borrar",
+    "RelativePath": "api/Proyectos",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tareas.Controllers.ProyectosController",
+    "Method": "Buscar",
+    "RelativePath": "api/Proyectos/id",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tareas.Controllers.TareasController",
+    "Method": "Listar",
+    "RelativePath": "api/Tareas",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tareas.Controllers.TareasController",
+    "Method": "Guardar",
+    "RelativePath": "api/Tareas",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "newObj",
+        "Type": "Tareas.Dtos.TareaSetDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tareas.Controllers.TareasController",
+    "Method": "Modificar",
+    "RelativePath": "api/Tareas",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "obj",
+        "Type": "Tareas.Dtos.TareaSetDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tareas.Controllers.TareasController",
+    "Method": "Borrar",
+    "RelativePath": "api/Tareas",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tareas.Controllers.TareasController",
+    "Method": "Buscar",
+    "RelativePath": "api/Tareas/id",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": []
