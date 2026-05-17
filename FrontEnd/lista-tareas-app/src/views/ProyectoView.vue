@@ -5,8 +5,9 @@
         <h1 class="mb-1">Lista de proyectos</h1>
         <p>Administracion de proyectos</p>
       </div>
-      <button class="btn btn-primary">Nuevo proyecto</button>
     </div>
+
+    <proyecto-form @guardando="cargarDatos" />
 
     <div v-if="loading">
       <div class="spinner-border text-primary"></div>
@@ -30,8 +31,15 @@
             <td>{{ proyecto.idProyecto }}</td>
             <td>{{ proyecto.nombre }}</td>
             <td>
-              <button class="btn btn-warning">Editar</button>
-              <button class="btn btn-danger">Eliminar</button>
+              <button class="btn btn-warning" @click="editarProyecto(proyecto)">
+                Editar
+              </button>
+              <button
+                class="btn btn-danger"
+                @click="borrarProyecto(proyecto.idProyecto)"
+              >
+                Eliminar
+              </button>
             </td>
           </tr>
         </tbody>
@@ -41,16 +49,27 @@
       No hay proyectos registrados
     </div>
   </app-layout>
+
+  <ProyectoEditModal
+    :proyecto="proyectoSeleccionado"
+    @actualizando="cargarDatos"
+  />
 </template>
 
 <script setup>
 import { ref, onMounted } from "vue";
 import AppLayout from "../components/layout/AppLayout.vue";
-import { getProyectos } from "../services/proyectoService";
+import { getProyectos, deleteProyecto } from "../services/proyectoService";
+import ProyectoForm from "../components/ProyectoForm.vue";
+import Swall from "sweetalert2";
+
+import ProyectoEditModal from "../components/ProyectoEditModal.vue";
+import * as bootstrap from "bootstrap";
 
 const proyectos = ref([]);
 const loading = ref(false);
 const error = ref("");
+const proyectoSeleccionado = ref({});
 
 const cargarDatos = async () => {
   try {
@@ -70,6 +89,42 @@ const cargarDatos = async () => {
     console.log(error);
   } finally {
     loading.value = false;
+  }
+};
+
+const editarProyecto = (proyecto) => {
+  proyectoSeleccionado.value = proyecto;
+  const modalElement = document.getElementById("editarModal");
+  const modal = new bootstrap.Modal(modalElement);
+  modal.show();
+};
+
+const borrarProyecto = async (id) => {
+  const resultado = await Swall.fire({
+    title: "¿Elimiar Proyecto?",
+    text: "Esta accion no se puede deshacer",
+    icon: "warning",
+    showCancelButton: true,
+    confirmButtonText: "Si, Eliminar",
+    cancelButtonText: "Cancelar",
+  });
+
+  if (!resultado.isConfirmed) {
+    return;
+  }
+  try {
+    await deleteProyecto(id);
+
+    await Swall.fire({
+      title: "Proyecto Eliminado",
+      icon: "success",
+      text: "El proyecto fue eliminado correctamente",
+    });
+
+    cargarDatos();
+  } catch (error) {
+    console.log(error);
+    alert(error);
   }
 };
 

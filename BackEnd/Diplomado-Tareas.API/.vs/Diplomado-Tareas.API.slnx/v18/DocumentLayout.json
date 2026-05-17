@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "C:\\Diplomado\\Diplomado-Tareas\\BackEnd\\Diplomado-Tareas.API\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{375EDD82-F6EA-66F6-8815-8AE399F5DC5D}|Diplomado-Tareas.API\\Diplomado-Tareas.API.csproj|c:\\diplomado\\diplomado-tareas\\backend\\diplomado-tareas.api\\diplomado-tareas.api\\controllers\\proyectoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{375EDD82-F6EA-66F6-8815-8AE399F5DC5D}|Diplomado-Tareas.API\\Diplomado-Tareas.API.csproj|solutionrelative:diplomado-tareas.api\\controllers\\proyectoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{375EDD82-F6EA-66F6-8815-8AE399F5DC5D}|Diplomado-Tareas.API\\Diplomado-Tareas.API.csproj|c:\\diplomado\\diplomado-tareas\\backend\\diplomado-tareas.api\\diplomado-tareas.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{375EDD82-F6EA-66F6-8815-8AE399F5DC5D}|Diplomado-Tareas.API\\Diplomado-Tareas.API.csproj|solutionrelative:diplomado-tareas.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{375EDD82-F6EA-66F6-8815-8AE399F5DC5D}|Diplomado-Tareas.API\\Diplomado-Tareas.API.csproj|c:\\diplomado\\diplomado-tareas\\backend\\diplomado-tareas.api\\diplomado-tareas.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{375EDD82-F6EA-66F6-8815-8AE399F5DC5D}|Diplomado-Tareas.API\\Diplomado-Tareas.API.csproj|solutionrelative:diplomado-tareas.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{375EDD82-F6EA-66F6-8815-8AE399F5DC5D}|Diplomado-Tareas.API\\Diplomado-Tareas.API.csproj|c:\\diplomado\\diplomado-tareas\\backend\\diplomado-tareas.api\\diplomado-tareas.api\\controllers\\tareascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{375EDD82-F6EA-66F6-8815-8AE399F5DC5D}|Diplomado-Tareas.API\\Diplomado-Tareas.API.csproj|solutionrelative:diplomado-tareas.api\\controllers\\tareascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -35,15 +47,52 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "ProyectosController.cs",
+              "DocumentMoniker": "C:\\Diplomado\\Diplomado-Tareas\\BackEnd\\Diplomado-Tareas.API\\Diplomado-Tareas.API\\Controllers\\ProyectosController.cs",
+              "RelativeDocumentMoniker": "Diplomado-Tareas.API\\Controllers\\ProyectosController.cs",
+              "ToolTip": "C:\\Diplomado\\Diplomado-Tareas\\BackEnd\\Diplomado-Tareas.API\\Diplomado-Tareas.API\\Controllers\\ProyectosController.cs",
+              "RelativeToolTip": "Diplomado-Tareas.API\\Controllers\\ProyectosController.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAowFoAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-17T01:46:48.519Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Diplomado\\Diplomado-Tareas\\BackEnd\\Diplomado-Tareas.API\\Diplomado-Tareas.API\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "Diplomado-Tareas.API\\appsettings.Development.json",
+              "ToolTip": "C:\\Diplomado\\Diplomado-Tareas\\BackEnd\\Diplomado-Tareas.API\\Diplomado-Tareas.API\\appsettings.Development.json",
+              "RelativeToolTip": "Diplomado-Tareas.API\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAACiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-05-15T15:26:15.823Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Diplomado\\Diplomado-Tareas\\BackEnd\\Diplomado-Tareas.API\\Diplomado-Tareas.API\\appsettings.json",
+              "RelativeDocumentMoniker": "Diplomado-Tareas.API\\appsettings.json",
+              "ToolTip": "C:\\Diplomado\\Diplomado-Tareas\\BackEnd\\Diplomado-Tareas.API\\Diplomado-Tareas.API\\appsettings.json",
+              "RelativeToolTip": "Diplomado-Tareas.API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-05-15T15:26:12.305Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "TareasController.cs",
               "DocumentMoniker": "C:\\Diplomado\\Diplomado-Tareas\\BackEnd\\Diplomado-Tareas.API\\Diplomado-Tareas.API\\Controllers\\TareasController.cs",
               "RelativeDocumentMoniker": "Diplomado-Tareas.API\\Controllers\\TareasController.cs",
               "ToolTip": "C:\\Diplomado\\Diplomado-Tareas\\BackEnd\\Diplomado-Tareas.API\\Diplomado-Tareas.API\\Controllers\\TareasController.cs",
               "RelativeToolTip": "Diplomado-Tareas.API\\Controllers\\TareasController.cs",
-              "ViewState": "AgIAAGcAAAAAAAAAAAAIwH0AAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAH0AAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-15T04:45:37.502Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-15T04:45:37.502Z"
             }
           ]
         }

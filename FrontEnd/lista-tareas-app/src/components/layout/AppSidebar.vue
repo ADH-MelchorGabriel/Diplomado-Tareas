@@ -21,7 +21,7 @@
 
 <script></script>
 
-<style>
+<style scoped>
 .sidebar {
   width: 250px;
   min-height: 100vh;
